@@ -1,0 +1,66 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fce4ec;
+}
+
+.screen {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.active {
+  display: flex;
+}
+
+.password-screen {
+  flex-direction: column;
+}
+
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(3, 60px);
+  gap: 10px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.key {
+  background-color: #f8bbd0;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 15px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.key:hover {
+  background-color: #f48fb1;
+}
+
+.input-display {
+  font-size: 24px;
+  margin-top: 20px;
+  letter-spacing: 8px;
+}
+
+.notepad {
+  background-color: #fff0f6;
+  border: 3px solid #f8bbd0;
+  padding: 20px;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 500px;
+  text-align: left;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  line-height: 1.6;
+}
+
+.notepad h3 {
+  margin-top: 0;
+}
